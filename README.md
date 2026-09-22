@@ -7,6 +7,10 @@ An explainable analytics service for supplier greenhouse-gas estimation, climate
 
 > Independent portfolio project with synthetic suppliers and illustrative factors. Not legal advice and not affiliated with Infineon.
 
+## Dashboard preview
+
+![Supplier Sustainability Risk Platform dashboard preview](docs/assets/dashboard-preview.png)
+
 ## What it demonstrates
 
 - Activity- and spend-based Scope 3 emission estimation
@@ -41,4 +45,3 @@ streamlit run src/sustainability/dashboard.py
 The engine deliberately separates measured, supplier-specific and spend-estimated emissions. Missing evidence increases uncertainty and priority rather than being treated as zero impact.
 
 See [model governance](docs/governance.md).
-
